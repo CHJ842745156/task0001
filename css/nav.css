@@ -1,0 +1,53 @@
+*{
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+body,div,ul,li,img{margin: 0;padding: 0;}
+.header{
+	width: 100%;
+	height: 80px;
+	background: #522A5C;
+	min-width: 980px;
+}
+.headcon{
+	float: left;
+	width: 980px;
+	height: 37px;
+	margin-top: 38px;
+	margin-left: 50%;
+	position: relative;
+	left: -490px;
+}
+.headcon .logo{
+	width: 112px;
+	height: 23px;
+	float: left;
+}
+.header .nav{
+	width: 248px;
+	height: 24px;
+	float: left;
+	margin-left: 620px;
+}
+.header .nav ul{
+	list-style-type: none;
+}
+.header .nav ul li{
+	display: inline-block;
+	margin-left: 28px;	
+}
+.header .nav ul li a{
+	font:14px "宋体";
+	color: white;
+	line-height: 14px;
+	text-decoration: none;
+}
+.header .githubicon{
+	width: 35px;
+	height: 37px;
+	float: right;
+	margin-right: 10px;
+	position: relative;
+	top: -33px;
+}
