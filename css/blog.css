@@ -1,0 +1,260 @@
+.main{
+	width: 100%;
+	height: 1512px;
+	min-width: 980px;
+	background: #EEEEEE;
+	overflow: hidden;
+	position: relative;
+	top: -33px;
+	padding-top: 20px;
+}
+.main .maincon{
+	width: 980px;
+	margin: 0 auto;
+}
+.main .maincon .fll{
+	float: left;
+}
+.main .maincon .flr{
+	float: right;
+}
+.main .maincon .fll .blog{
+	width: 710px;
+	margin-bottom: 10px;
+}
+.main .maincon .fll .head{
+	height: 80px;
+	float: left;
+	position: relative;
+	top: 35px;
+	left: -50px;
+}
+.main .maincon .fll .head .con{
+	width: 50px;
+	height: 40px;
+	font-size: 12px;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+}
+.main .maincon .fll .head .date{
+	background-color: #522A5C;
+}
+.main .maincon .fll .head .title{
+	background-color: #A660B7;
+}
+.main .maincon .fll .blog .blogcon{
+	width: 710px;
+	padding: 20px 15px 15px 15px;
+	background-color: white;
+}
+.main .maincon .fll .blog .blogcon .title{
+	font-size: 16px;
+	color: #A660B7;
+	margin-bottom: 10px;
+	position: relative;
+	left: -35px;
+}
+.main .maincon .fll .blog .blogcon .subtitle{
+	font-size: 12px;
+	color: #666;
+	margin-bottom: 15px;
+	position: relative;
+	left: -35px;
+}
+.main .maincon .fll .blog .blogcon .text{
+	font-size: 12px;
+	color: black;
+	margin-bottom: 10px;
+	text-indent: 2em;
+}
+.main .maincon .fll .blog .blogcon .note{
+	font-size: 8px;
+	color: #999999;
+	margin-right: 0;
+	margin-bottom: 0;
+	text-align: right;
+}
+.main .maincon .fll .page{
+	display: flex;
+	display: -webkit-flex;
+	width: 710px;
+	justify-content:center;
+}
+.main .maincon .fll .page .turn{
+	width: 70px;
+	height: 35px;
+	background-color: white;
+	padding: 15px;
+	font-size: 10px;
+	margin-right: 10px;
+}
+.main .maincon .fll .page .num{
+	width: 40px;
+	height: 35px;
+	background-color: white;
+	padding: 15px;
+	font-size: 10px;
+	margin-right: 10px;	
+}
+.main .maincon .fll .page a{
+	color: black	
+}
+.main .maincon .flr .searchbox{
+	width: 260px;
+	height: 80px;
+	background-color: white;
+	padding: 20px 15px;
+	margin-bottom: 10px;
+}
+.main .maincon .flr .searchbox .search{
+	width: 222px;
+	height: 45px;
+	border: solid 1px #DDDDDD;
+}
+.main .maincon .flr .searchbox .search .fll input{
+	width: 123px;
+	height: 40px;
+	border: 0px;
+	color: #DDDDDD;
+}
+.main .maincon .flr .log{
+	width: 260px;
+	margin-bottom: 10px;
+}
+.main .maincon .flr .log ul{
+	list-style-type: none;
+}
+.main .maincon .flr .log ul li{	
+	margin-bottom: 1px;
+}
+.main .maincon .flr .log ul li a{
+	margin-bottom: 1px;
+	text-decoration: none;
+}
+.main .maincon .flr .log ul li a div{
+	width: 260px;
+	height: 50px;
+	border-left: solid #DFC6E6 4px;
+	padding-left: 20px;
+	color: #666666;
+	background-color: white;
+	line-height: 50px;
+	font-size: 12px;
+}
+.main .maincon .flr .log ul li a:hover div{
+	border-left: solid #522A5C 4px;
+}
+.main .maincon .flr .log ul li a .selected{
+	border-left: solid #522A5C 4px;
+}
+.main .maincon .flr .calendar{
+	width: 260px;
+	height: 240px;
+	padding: 20px;
+	background-color: white;
+}
+.main .maincon .flr .calendar .yearmonth{
+	width: 200px;
+	display: flex;
+	display: -webkit-flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	color: #522A5C;
+}
+.main .maincon .flr .calendar .yearmonth a{
+	text-decoration: none;
+}
+.main .maincon .flr .calendar .day table tr{
+	width: 230px;
+	margin: 0 auto;
+}
+.main .maincon .flr .calendar .day table td{
+	width: 30px;
+	height: 30px;
+	color: #999999;
+	font-size: 12px;
+	line-height: 30px;
+	text-align: center;
+}
+.main .maincon .flr .calendar .day table td div{	
+	border-bottom: solid 1px #EEEEEE;
+	width: 26px;
+	height: 20px;
+	line-height: 20px;
+}
+.main .maincon .flr .calendar .day table td a{	
+	color: #999999;
+	text-decoration: none;
+}
+.main .maincon .flr .calendar .day table td a:hover .diffday,.main .maincon .flr .calendar .day table td a .selected{	
+	background-color: #773C88;
+	color: white;
+}
+.main .maincon .flr .tag{
+	width: 260px;
+	height: 200px;
+	margin-top: 10px;
+	background-color: white;
+	padding: 15px 25px 60px 25px;
+}
+.main .maincon .flr .tag .title{
+	width: 35px;
+	height: 20px;
+	font-size: 14px;
+	color: #666666;
+	margin-bottom: 20px;
+}
+.main .maincon .flr .tag .textrol1{
+	width: 230px;
+	height: 35px;
+	overflow: hidden;
+}
+.main .maincon .flr .tag .textrol2{
+	width: 195px;
+	height: 35px;
+	overflow: hidden;
+}
+.main .maincon .flr .tag .textrol3{
+	width: 230px;
+	height: 25px;
+	overflow: hidden;
+}
+.main .maincon .flr .tag .textrol4{
+	width: 170px;
+	height: 25px;
+	overflow: hidden;
+}
+.main .maincon .flr .tag span{
+	color: #773C88;
+	margin-right: 3px;
+	margin-bottom: 0;
+}
+.main .maincon .flr .tag div .font30{
+	font-size: 30px;
+}
+.main .maincon .flr .tag div .font18{
+	font-size: 18px;
+}
+.main .maincon .flr .tag div .font10{
+	font-size: 10px;
+}
+.main .maincon .flr .tag div .font25{
+	font-size: 25px;
+}
+.main .maincon .flr .tag div .font14{
+	font-size: 14px;
+}
+.main .maincon .flr .tag div .font12{
+	font-size: 12px;
+}
+.main .maincon .flr .tag div .font20{
+	font-size: 20px;
+}
+.main .maincon .flr .tag div .font15{
+	font-size: 15px;
+}
+.footer{
+	position: relative;
+	top: -33px;
+}
