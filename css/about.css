@@ -1,0 +1,138 @@
+.main{
+	width: 100%;
+	min-width: 980px;
+	background: #EEEEEE;
+	overflow: hidden;
+	position: relative;
+	top: -33px;
+	padding-top: 20px;
+	padding-bottom: 25px;
+}
+.main .maincon{
+	width: 980px;
+	height: 1400px;
+	margin: 0 auto;
+	display: flex;
+	display: -webkit-flex;
+	justify-content: space-between;
+	margin-top: 100px;
+}
+.main .maincon .fll .leftcon{
+	width: 487px;
+	height: 1400px;
+	background-color: #fff;
+	padding-top: 130px;
+	padding-right: 80px;
+	font-size: 20px;
+}
+.main .maincon .flr .rightcon{
+	width: 487px;
+	height: 1400px;
+	background-color: #fff;
+	font-size: 14px;
+	padding-left: 30px;
+	padding-top: 130px;
+}
+.main .maincon .fll .leftcon .name{
+	width: 343px;
+	height: 20px;
+	text-align: right;
+}
+.main .maincon .fll .leftcon .contact{
+	margin-top: 250px;
+	width: 343px;
+	height: 20px;
+	text-align: right;
+}
+.main .maincon .fll .leftcon .educate{
+	margin-top: 215px;
+	width: 343px;
+	height: 20px;
+	text-align: right;
+}
+.main .maincon .fll .leftcon .work{
+	margin-top: 305px;
+	width: 343px;
+	height: 20px;
+	text-align: right;
+}
+.main .maincon .flr .rightcon .headimg{
+	position: relative;
+	top: -190px;
+	left: -125px;
+}
+.main .maincon .flr .rightcon .selfintro{
+	position: relative;
+	left: -195px;
+}
+.main .maincon .flr .rightcon .phoneimg{
+	height: 114px;
+	position: relative;
+	left: -272px;
+	top: 10px;
+}
+.main .maincon .flr .rightcon .phonenum{
+	height: 110px;
+	position: relative;
+	top: 20px;
+}
+.main .maincon .flr .rightcon .educateimg{
+	height: 125px;
+	position: relative;
+	left: -90px;
+}
+.main .maincon .flr .rightcon .study{
+	height: 200px;
+	position: relative;
+	left: -90px;
+}
+.main .maincon .flr .rightcon .study .info{
+	width: 700px;
+	height: 60px;
+	position: relative;
+	left: 20px;
+	top: 10px;
+}
+.main .maincon .flr .rightcon .study .info .year{
+	width: 70px;
+	height: 35px;
+	border: 5px solid #EEEEEE;
+	border-radius: 5px;
+	background-color: #fff;
+	margin-right: 25px;
+	text-align: center;
+	line-height: 25px;
+}
+.main .maincon .flr .rightcon .workimg{
+	height: 125px;
+	position: relative;
+	left: -90px;
+}
+.main .maincon .flr .rightcon .workexp{
+	height: 150px;
+	position: relative;
+	left: -90px;
+}
+.main .maincon .flr .rightcon .workexp .info{
+	width: 700px;
+	height: 60px;
+	position: relative;
+	left: 20px;
+	top: 20px;
+}
+.main .maincon .flr .rightcon .workexp .info .year{
+	width: 70px;
+	height: 35px;
+	border: 5px solid #EEEEEE;
+	border-radius: 5px;
+	background-color: #fff;
+	margin-right: 25px;
+	text-align: center;
+	line-height: 25px;
+}
+
+
+.footer{
+	position: relative;
+	top: -33px;
+}
