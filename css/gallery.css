@@ -8,15 +8,236 @@
 	top: -33px;
 	padding-top: 20px;
 }
+.main .maincon{
+	width: 980px;
+	margin: 0 auto;
+}
+.main .maincon .left{
+	width: 710px;
+}
+.main .maincon .fll .nav{
+	float: left;
+}
+.main .maincon .fll .nav ul{
+	list-style-type: none;
+}
+.main .maincon .fll .nav ul li a{
+	text-decoration: none;
+	color: black;
+	font-size: 14px;
+}
+.main .maincon .fll .nav ul li a div{
+	padding: 15px 20px 20px 20px;
+	background-color: #fff;
+	overflow: hidden;
+	border: solid 1px #EEEEEE;
+}
+.main .maincon .fll .nav ul li a .link1{
+	border-top: solid 5px #DFC6E6;
+}
+.main .maincon .fll .nav ul li a:hover .link1,.main .maincon .fll .nav ul li a .selected{
+	border-top: solid 5px #522A5C;
+	border-bottom: solid 1px #fff;
+}
+.main .maincon .fll .nav ul li a .link2{
+	border-top: solid 5px #DFC6E6;
+}
+.main .maincon .fll .nav ul li a:hover .link2{
+	border-top: solid 5px #522A5C;
+	border-bottom: solid 1px #fff;
+}
+.main .maincon .fll .nav ul li a .link3{
+	border-top: solid 5px #D2A6FF;
+}
+.main .maincon .fll .nav ul li a:hover .link3{
+	border-top: solid 5px #5900B2;
+	border-bottom: solid 1px #fff;
+}
+.main .maincon .fll .nav ul li a .link4{
+	border-top: solid 5px #FFA98C;
+}
+.main .maincon .fll .nav ul li a:hover .link4{
+	border-top: solid 5px #8C2300;
+	border-bottom: solid 1px #fff;
+}
+.main .maincon .fll .nav ul li a .link5{
+	border-top: solid 5px #FFE188;
+}
+.main .maincon .fll .nav ul li a:hover .link5{
+	border-top: solid 5px #D9A300;
+	border-bottom: solid 1px #fff;
+}
+.main .maincon .fll .gallerycon{
+	width: 710px;
+	overflow: hidden;
+	background-color: #fff;
+	padding: 20px 10px 25px 20px;
+	margin-bottom: 10px;
+}
+.main .maincon .fll .gallerycon .fll{
+	margin-right: 10px;
+	overflow: hidden;
+}
+.main .maincon .fll .gallerycon .widlim{
+	width: 330px;
+	overflow: hidden;
+}
+.main .maincon .fll .gallerycon .widlim .widlim{
+	width: 350px;
+	overflow: hidden;
+}
 
-
-
-
-
-
-
-
-
+.main .maincon .fll .gallerycon .fll .top{
+	margin-bottom: 10px;
+}
+.main .maincon .fll .gallerycon .fll .top .con .img{
+	width: 330px;
+	height: 150px;
+}
+.main .maincon .fll .gallerycon .fll .top .con .text{
+	width: 330px;
+	padding: 10px;
+	background-color: #522A5C;
+	overflow: hidden;
+	color: white
+}
+.main .maincon .fll .gallerycon .fll .top .con .text .tag{
+	width: 26px;
+	height: 26px;
+	border: solid #fff 1px;
+	border-radius: 13px;
+	text-align: center;
+	line-height: 26px;
+}
+.main .maincon .fll .gallerycon .fll .top .con .text .title{
+	width: 245px;
+	font-size: 12px;
+}
+.main .maincon .fll .gallerycon .fll .top .con .text .textcon{
+	width: 245px;
+	font-size: 10px;
+}
+.main .maincon .fll .gallerycon .fll .ordinary{
+	margin-bottom: 10px;
+}
+.main .maincon .fll .gallerycon .fll .ordinary .con .img{
+	width: 160px;
+	height: 100px;
+}
+.main .maincon .fll .gallerycon .fll .ordinary .con .img img{
+	width: 100%;
+	height: 100%;
+}
+.main .maincon .fll .gallerycon .fll .ordinary .con .text{
+	width: 160px;
+	padding: 10px;
+	background-color: #522A5C;
+	overflow: hidden;
+	color: white
+}
+.main .maincon .fll .gallerycon .fll .ordinary .con .text .tag{
+	width: 26px;
+	height: 26px;
+	border: solid #fff 1px;
+	border-radius: 13px;
+	text-align: center;
+	line-height: 26px;
+}
+.main .maincon .fll .gallerycon .fll .ordinary .con .text .title{
+	width: 100px;
+	font-size: 12px;
+}
+.main .maincon .fll .gallerycon .fll .ordinary .con .text .textcon{
+	width: 100px;
+	font-size: 10px;
+}
+.main .maincon .fll .gallerycon .short{
+	width: 160px;
+	overflow: hidden;
+	
+}
+.main .maincon .fll .more{
+	width: 710px;
+	height: 50px;
+	background-color: white;
+	padding-top: 15px;
+}
+.main .maincon .fll .more .text{
+	width: 120px;
+	height: 30px;
+	margin: 0 auto;
+}
+.main .maincon .fll .more .text a{
+	text-decoration: none;
+	color: #666666;
+}
+.main .maincon .flr .searchbox{
+	width: 260px;
+	height: 80px;
+	background-color: white;
+	padding: 20px 15px;
+	margin-bottom: 10px;
+}
+.main .maincon .flr .searchbox .search{
+	width: 222px;
+	height: 45px;
+	border: solid 1px #DDDDDD;
+}
+.main .maincon .flr .searchbox .search:focus{
+	border: solid 1px #000;
+}
+.main .maincon .flr .searchbox .search .fll input{
+	width: 123px;
+	height: 40px;
+	border: 0px;
+	color: #DDDDDD;
+}
+.main .maincon .flr .searchbox .search .fll input:focus{
+	width: 123px;
+	height: 40px;
+	border: 0px;
+	color: black;
+}
+.main .maincon .flr .searchbox .search .flr img{
+	height: 100%;
+	border: 0px;
+	color: black;
+}
+.main .maincon .flr .pop{
+	width: 260px;
+	height: 240px;
+	padding: 20px 20px 30px 15px;
+	background-color: #fff;
+}
+.main .maincon .flr .pop .title{
+	width: 75px;
+	height: 16px;
+	font-size: 14px;
+	line-height: 16px;
+	margin-bottom: 20px;
+	color: #666666;
+}
+.main .maincon .flr .pop .data{
+	width: 240px;
+	height: 150px;
+	margin: 0 auto;
+}
+.main .maincon .flr .pop .data table tr{
+	height: 30px;
+	text-align: center;
+	text-valign:center;
+}
+.main .maincon .flr .pop .data table tr .num{
+	width: 25px;
+}
+.main .maincon .flr .pop .data table tr .hot{
+	width: 102px;
+}
+.main .maincon .flr .pop .data table tr .name{
+	width: 110px;
+	font-size: 12px;
+	text-align: left;
+}
 
 .footer{
 	position: relative;
